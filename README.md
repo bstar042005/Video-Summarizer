@@ -1,8 +1,8 @@
-# 🎥 Video Summarizer
+# Video Summarizer
 
 An AI-powered Video Summarizer that automatically generates concise summaries from video content. The application extracts audio from videos, converts speech to text, and uses advanced Natural Language Processing (NLP) techniques to produce meaningful summaries, helping users quickly understand lengthy videos.
 
-## 🚀 Features
+## Features
 
 * Upload video files for processing
 * Automatic audio extraction from videos
@@ -25,7 +25,7 @@ An AI-powered Video Summarizer that automatically generates concise summaries fr
 * MoviePy
 * Git & GitHub
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Video-Summarizer/
@@ -40,7 +40,7 @@ Video-Summarizer/
 └── .gitignore
 ```
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the Repository
 
@@ -89,17 +89,7 @@ python main.py
 4. The transcript is processed using NLP techniques.
 5. A concise summary is generated and displayed to the user.
 
-## 🎯 Use Cases
-
-* Educational lectures
-* Online courses
-* Meeting recordings
-* Webinars
-* Podcasts
-* YouTube videos
-* Research content
-
-## 👨‍💻 Author
+## Author
 
 **Bhavya**
 

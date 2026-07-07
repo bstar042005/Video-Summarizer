@@ -2,88 +2,83 @@
 
 🔗 **Live Demo:** https://video-summarizer-qjnjtkgtzm6ydfe28ccp6t.streamlit.app/
 
-## Overview
+AI Video Summarizer is an AI-powered web application that automatically converts video content into concise, structured summaries. The application extracts audio from uploaded videos, transcribes speech using OpenAI Whisper, and generates high-quality summaries using Groq's Llama 3.3 70B Versatile model.
 
-AI Video Summarizer is an AI-powered web application that automatically generates concise summaries from video content. The application extracts audio from uploaded videos, converts speech into text using OpenAI Whisper, and generates structured summaries using Groq LLMs.
-
-This helps users quickly understand long videos without watching the entire content.
+This enables users to quickly understand lengthy videos without watching them in full.
 
 ---
 
 ## Features
 
-* Upload video files for processing
-* Automatic audio extraction using FFmpeg & MoviePy
-* Speech-to-text transcription using OpenAI Whisper
-* AI-generated summaries using Groq LLM
-* Fast and efficient processing pipeline
-* Clean and user-friendly Streamlit interface
-* Supports long-form video content
-* Downloadable summary output
+- Upload video files for summarization
+- Automatic audio extraction using MoviePy
+- Speech-to-text transcription using OpenAI Whisper
+- AI-generated summaries using Groq Llama 3.3 70B Versatile
+- Structured summaries with key points and insights
+- Fast and efficient processing pipeline
+- Simple and intuitive Streamlit interface
+- Download generated summaries
+- Supports long-form video content
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
-
-* Streamlit
+- Streamlit
 
 ### Backend
-
-* Python
+- Python
 
 ### AI & Machine Learning
-
-* OpenAI Whisper
-* Groq LLM (Llama 3.3 70B Versatile)
-* Natural Language Processing (NLP)
+- OpenAI Whisper
+- Groq API
+- Llama 3.3 70B Versatile
+- Natural Language Processing (NLP)
 
 ### Video Processing
-
-* MoviePy
-* FFmpeg
+- MoviePy
+- FFmpeg
 
 ### Development Tools
-
-* Git & GitHub
-* Streamlit
+- Git
+- GitHub
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```text
 Video-Summarizer/
 │
 ├── input/                  # Uploaded videos
-├── output/                 # Extracted audio & summaries
-├── app.py                  # Streamlit UI
+├── output/                 # Generated audio and summaries
+├── .env.example            # Environment variable template
+├── app.py                  # Streamlit application
 ├── main.py                 # Video processing pipeline
 ├── requirements.txt        # Python dependencies
-├── packages.txt            # System dependencies (FFmpeg)
-├── README.md               # Project documentation
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## Installation
+## ⚙️ Installation
 
-### 1. Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/bstar042005/Video-Summarizer.git
 cd Video-Summarizer
 ```
 
-### 2. Create Virtual Environment
+### 2️⃣ Create a Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-### 3. Activate Virtual Environment
+### 3️⃣ Activate the Virtual Environment
 
 #### Windows
 
@@ -91,37 +86,37 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 
-#### Linux / Mac
+#### macOS / Linux
 
 ```bash
 source .venv/bin/activate
 ```
 
-### 4. Install Dependencies
+### 4️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Install FFmpeg
+### 5️⃣ Install FFmpeg
 
-Download FFmpeg and add it to your system PATH.
+Download and install FFmpeg, then add it to your system PATH.
 
-Verify installation:
+Verify the installation:
 
 ```bash
 ffmpeg -version
 ```
 
-### 6. Configure Environment Variables
+### 6️⃣ Configure Environment Variables
 
-Create a `.env` file:
+Create a `.env` file in the project root.
 
 ```env
 GROQ_API_KEY=your_groq_api_key
 ```
 
-### 7. Run the Application
+### 7️⃣ Run the Application
 
 ```bash
 streamlit run app.py
@@ -131,19 +126,30 @@ streamlit run app.py
 
 ## How It Works
 
-1. User uploads a video.
-2. Audio is extracted using MoviePy.
-3. OpenAI Whisper converts speech into text.
-4. Transcript is sent to Groq LLM.
-5. AI generates a structured summary.
-6. Summary is displayed to the user.
-
----
-
-## Author
-
-**Bhavya Vaish**
+```text
+Upload Video
+      │
+      ▼
+Extract Audio (MoviePy)
+      │
+      ▼
+Speech-to-Text (OpenAI Whisper)
+      │
+      ▼
+Generate Summary (Groq Llama 3.3)
+      │
+      ▼
+Display Structured Summary
+```
 
 ## ⭐ Support
 
-If you found this project useful, please consider giving it a **Star ⭐** on GitHub.
+If you found this project useful, consider giving it a **⭐ Star** on GitHub.
+
+Contributions, suggestions, and feedback are always welcome!
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.

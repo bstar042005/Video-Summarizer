@@ -63,7 +63,7 @@ Video-Summarizer/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1️⃣ Clone the Repository
 

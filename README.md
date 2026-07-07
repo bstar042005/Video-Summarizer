@@ -46,7 +46,7 @@ This enables users to quickly understand lengthy videos without watching them in
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Video-Summarizer/
@@ -142,14 +142,10 @@ Generate Summary (Groq Llama 3.3)
 Display Structured Summary
 ```
 
-## ⭐ Support
+## Support
 
 If you found this project useful, consider giving it a **⭐ Star** on GitHub.
 
 Contributions, suggestions, and feedback are always welcome!
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.

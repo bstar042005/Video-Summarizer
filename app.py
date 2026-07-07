@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="🎥"
 )
 
-st.title("🎥 AI Video Summarizer")
+st.title("AI Video Summarizer")
 st.write("Upload a video and get an AI-generated summary.")
 
 video = st.file_uploader(
@@ -35,7 +35,7 @@ if video:
             try:
                 summary = process_video(video_path)
 
-                st.subheader("📝 Summary")
+                st.subheader("Summary")
                 st.write(summary)
 
             except Exception as e:
